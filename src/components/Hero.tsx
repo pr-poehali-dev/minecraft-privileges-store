@@ -21,7 +21,7 @@ const Hero = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-slate-600 text-white hover:bg-slate-800"
+            className="border-red-600 text-red-400 hover:bg-red-600 hover:text-white"
           >
             📋 Правила сервера
           </Button>
