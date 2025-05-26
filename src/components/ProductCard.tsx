@@ -72,9 +72,13 @@ const ProductCard = ({
         {description && (
           <div className="space-y-2 mb-6 text-slate-300">{description}</div>
         )}
-        <Button className="w-full bg-green-500 hover:bg-green-600">
-          {buttonText}
-        </Button>
+        <div
+          className={`${["OVERLORD", "IMPERATOR", "HERO"].includes(title) ? "mt-8" : ""}`}
+        >
+          <Button className="w-full bg-green-500 hover:bg-green-600">
+            {buttonText}
+          </Button>
+        </div>
       </CardContent>
     </Card>
   );
