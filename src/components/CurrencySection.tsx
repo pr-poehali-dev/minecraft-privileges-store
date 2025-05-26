@@ -11,19 +11,19 @@ const CurrencySection = () => {
           💰 Игровая валюта
         </h2>
 
-        <div className="max-w-4xl mx-auto bg-white rounded-2xl p-8 shadow-2xl">
+        <div className="max-w-4xl mx-auto bg-slate-800/90 rounded-2xl p-8 shadow-2xl border border-slate-700/50">
           <div className="flex items-center gap-6 mb-8">
             <div className="w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
               <div className="text-3xl">💰</div>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-800">
+              <h3 className="text-2xl font-bold text-white">
                 Покупка игровой валюты
               </h3>
-              <p className="text-gray-600">Количество рилликов</p>
+              <p className="text-slate-300">Количество рилликов</p>
             </div>
             <div className="ml-auto text-right">
-              <div className="text-sm text-gray-500">{currencyAmount[0]}</div>
+              <div className="text-sm text-slate-400">{currencyAmount[0]}</div>
             </div>
           </div>
 
