@@ -1,4 +1,7 @@
 import ProductCard from "./ProductCard";
+import { Slider } from "@/components/ui/slider";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 interface Product {
   name: string;
@@ -27,6 +30,8 @@ const ProductCategory = ({
   type,
   bgClass,
 }: ProductCategoryProps) => {
+  const [currencyAmount, setCurrencyAmount] = useState([50]);
+
   const getIcon = (type: string) => {
     switch (type) {
       case "privilege":
