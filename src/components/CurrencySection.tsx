@@ -40,14 +40,14 @@ const CurrencySection = () => {
 
           <div className="flex justify-between items-center mb-8">
             <div className="text-center">
-              <div className="text-sm text-gray-500 mb-1">Отдаете</div>
-              <div className="text-2xl font-bold text-gray-800">
+              <div className="text-sm text-slate-400 mb-1">Отдаете</div>
+              <div className="text-2xl font-bold text-white">
                 {currencyAmount[0]}₽
               </div>
             </div>
             <div className="text-center">
-              <div className="text-sm text-gray-500 mb-1">Получаете</div>
-              <div className="text-2xl font-bold text-gray-800">
+              <div className="text-sm text-slate-400 mb-1">Получаете</div>
+              <div className="text-2xl font-bold text-white">
                 {currencyAmount[0]}R
               </div>
             </div>
@@ -58,7 +58,7 @@ const CurrencySection = () => {
               ПРИОБРЕСТИ РИЛЛИКИ
               <span>→</span>
             </button>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-slate-400">
               Совершая оплату, вы соглашаетесь
               <br />
               со всеми условиями{" "}
