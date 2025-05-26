@@ -65,23 +65,10 @@ const Index = () => {
 
   const currency = [
     {
-      name: "Монеты",
-      amount: "1,000",
-      price: "99₽",
+      name: "Риллы",
+      amount: "50",
+      price: "50₽",
       bonus: "",
-    },
-    {
-      name: "Монеты",
-      amount: "5,000",
-      price: "399₽",
-      bonus: "+500 бонус",
-      popular: true,
-    },
-    {
-      name: "Монеты",
-      amount: "10,000",
-      price: "699₽",
-      bonus: "+2,000 бонус",
     },
   ];
 
