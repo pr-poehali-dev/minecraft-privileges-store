@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProductCategory from "@/components/ProductCategory";
+import ServicesSection from "@/components/ServicesSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -93,6 +94,7 @@ const Index = () => {
         products={chests}
         type="chest"
       />
+      <ServicesSection />
       <Footer />
     </div>
   );
